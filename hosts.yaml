@@ -1,0 +1,21 @@
+all:
+  hosts:
+    web-1:
+        ansible_host: 
+        ansible_user: ubuntu
+    web-2:
+        ansible_host: 
+        ansible_user: ubuntu
+    main:
+        ansible_host: 
+        ansible_user: ubuntu
+    replica:
+        ansible_host: 
+        ansible_user: ubuntu
+    storage:
+        ansible_host: 
+        ansible_user: ubuntu
+    bastion:
+        ansible_host: 89.169.128.65
+        ansible_user: ubuntu
+  
